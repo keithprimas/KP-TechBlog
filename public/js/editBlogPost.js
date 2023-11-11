@@ -1,0 +1,19 @@
+let blogPost = window.location.pathname.split("/");
+
+
+const editPost = async (event) => {
+  event.preventDefault();
+  console.log("clicked me");
+
+  const comment_body = document.getElementById("editBtn").value.trim();
+
+  console.log(blogPost);
+
+  document.location.assign('/create/${blogPost[]}');
+};
+
+const editButton = document.querySelectorAll("#editBtn");
+
+
+for (let i = 0; i < editButton.length; i++) {
+  editButton[i].addEventListener("click", editPost)}

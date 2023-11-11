@@ -1,25 +1,22 @@
 [
-    {
-        "name": "Sophia Miller",
-        "email": "sophia.miller@example.com",
-        "password": "millerPass789"
-      }
-    
-    {
-        "name": "Daniel Clark",
-        "email": "daniel.clark@example.com",
-        "password": "clarkd@123"
-      }
-
-    {
-        "name": "Emily White",
-        "email": "emily.white@example.com",
-        "password": "securepass456"
-      }
-
-    {
-        "name": "Michael Brown",
-        "email": "michael.brown@example.com",
-        "password": "brownie2023"
-      }      
+  {
+    "name": "Sophia Miller",
+    "email": "sophia.miller@example.com",
+    "password": "millerPass789"
+  },
+  {
+    "name": "Daniel Clark",
+    "email": "daniel.clark@example.com",
+    "password": "clarkd@123"
+  },
+  {
+    "name": "Emily White",
+    "email": "emily.white@example.com",
+    "password": "securepass456"
+  },
+  {
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "password": "brownie2023"
+  }
 ]

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(134, 134, 238);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navBar {
+    background-color: #f8d71a;
+    padding: 10px; 
+  }
+  
+  .no-button, nav a, nav button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px; 
+    text-decoration: none;
+    color: #000;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   nav a:hover, nav button:hover {
+    background-color: #ffc107; 
+  }
+  
+
+  
+  button.no-button:hover {
+    text-decoration: underline;
+  }
+  
+ 
+.project.card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: background-color 0.3s ease;
+  }
+
+  .project.card:hover {
+    background-color: rgb(37, 218, 37); 
+  }
+
+.homepage-main p {
+    color: white;
+    font-size: 20px;
+}
+  
+.blogPost-main {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: background-color 0.3s ease;
+  }
+
+  .blogPost-main:hover {
+    background-color: rgb(37, 218, 37); 
+  }
+
+  

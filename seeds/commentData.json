@@ -1,26 +1,32 @@
 [
-    {
-        "title": "The Future of Artificial Intelligence",
-        "description": "Exploring the latest advancements in AI technology and its potential impact on various industries. This article provides insights into the evolving landscape of artificial intelligence.",
-        "date_created": "5-1-2023",
-        "user_id": 4
-      }
-    {
-        "title": "Web Development Trends in 2023",
-        "description": "A comprehensive overview of the current trends in web development, including new technologies, frameworks, and design approaches. Stay up-to-date with the latest developments shaping the web development landscape.",
-        "date_created": "10-7-2023",
-        "user_id": 3
-      }
-    {
-        "title": "Healthy Living: Mind, Body, and Soul",
-        "description": "An exploration of holistic approaches to maintaining a healthy lifestyle, covering physical health, mental well-being, and spiritual practices. Discover actionable tips for a balanced and fulfilling life.",
-        "date_created": "6-30-2023",
-        "user_id": 1
-      }
-    {
-        "title": "Exploring the Wonders of Space",
-        "description": "Delve into the mysteries of the universe as this article takes you on a journey through the latest discoveries in astronomy and space exploration. Learn about fascinating celestial phenomena and ongoing space missions.",
-        "date_created": "7-3-2023",
-        "user_id": 2
-      }
+  {
+    "comment_body": "Your post inspired me to explore this topic further. Thank you!",
+    "date_created": "5-11-2023",
+    "user_id": 1,
+    "blogPost_id": 1
+  },
+  {
+    "comment_body": "I appreciate your perspective. It adds value to the discussion.",
+    "date_created": "6-2-2023",
+    "user_id": 1,
+    "blogPost_id": 2
+  },
+  {
+    "comment_body": "Kudos on the comprehensive content. Looking forward to more.",
+    "date_created": "2-23-2023",
+    "user_id": 3,
+    "blogPost_id": 2
+  },
+  {
+    "comment_body": "I have a question about a point in your post. Can you elaborate?",
+    "date_created": "11-5-2023",
+    "user_id": 2,
+    "blogPost_id": 4
+  },
+  {
+    "comment_body": "This is a thought-provoking post. Well done!",
+    "date_created": "8-16-2023",
+    "user_id": 4,
+    "blogPost_id": 3
+  }
 ]

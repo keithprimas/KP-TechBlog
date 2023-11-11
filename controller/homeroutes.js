@@ -4,6 +4,7 @@ const withAuth = require("../utils/auth");
 
 router.get("/", async (req, res) => {
   try {
+    
     const blogPostData = await BlogPost.findAll({
       include: [
         {
@@ -17,10 +18,12 @@ router.get("/", async (req, res) => {
       ],
     });
 
+  
     const blogPosts = blogPostData.map((blogPost) =>
       blogPost.get({ plain: true })
     );
 
+    
     res.render("homepage", {
       blogPosts,
       logged_in: req.session.logged_in,
@@ -30,6 +33,7 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 router.get("/blogPost/:id", withAuth, async (req, res) => {
   try {
@@ -60,9 +64,10 @@ router.get("/blogPost/:id", withAuth, async (req, res) => {
   }
 });
 
+
 router.get("/dashboard", withAuth, async (req, res) => {
   try {
-   
+    
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ["password"] },
       
@@ -89,6 +94,7 @@ router.get("/dashboard", withAuth, async (req, res) => {
   }
 });
 
+
 router.get("/create", async (req, res) => {
   try {
     if (req.session.logged_in) {
@@ -110,7 +116,7 @@ router.get("/create", async (req, res) => {
 router.get("/create/:id", async (req, res) => {
   try {
     const blogPostData = await BlogPost.findByPk(req.params.id, {
- 
+      
       include: [
         {
           model: User,
@@ -143,7 +149,7 @@ router.get("/create/:id", async (req, res) => {
 });
 
 router.all("/login", (req, res) => {
- 
+  
   if (req.session.logged_in) {
     res.redirect("/dashboard");
     return;
@@ -151,5 +157,6 @@ router.all("/login", (req, res) => {
 
   res.render("login");
 });
+
 
 module.exports = router;
